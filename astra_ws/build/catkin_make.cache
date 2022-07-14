@@ -1,0 +1,2 @@
+ros_astra_camera
+-DCATKIN_DEVEL_PREFIX=/home/z/astra_ws/devel -DCMAKE_INSTALL_PREFIX=/home/z/astra_ws/install -G Unix Makefiles

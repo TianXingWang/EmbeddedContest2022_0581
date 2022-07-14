@@ -1,0 +1,8 @@
+prefix=/home/z/catkin_ws/devel
+
+Name: map_msgs
+Description: Description of map_msgs
+Version: 1.14.1
+Cflags: -I/home/z/catkin_ws/devel/include
+Libs: -L${prefix}/lib 
+Requires: message_runtime nav_msgs sensor_msgs std_msgs

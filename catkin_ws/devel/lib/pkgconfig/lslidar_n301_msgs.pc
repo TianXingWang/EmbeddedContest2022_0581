@@ -1,0 +1,8 @@
+prefix=/home/z/catkin_ws/devel
+
+Name: lslidar_n301_msgs
+Description: Description of lslidar_n301_msgs
+Version: 1.2.0
+Cflags: -I/home/z/catkin_ws/devel/include
+Libs: -L${prefix}/lib 
+Requires: message_runtime std_msgs

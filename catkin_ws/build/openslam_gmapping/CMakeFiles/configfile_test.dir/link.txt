@@ -1,0 +1,1 @@
+/usr/bin/c++  -std=c++11 -O3 -O3 -DNDEBUG  -rdynamic CMakeFiles/configfile_test.dir/configfile/configfile_test.cpp.o  -o /home/z/catkin_ws/devel/lib/openslam_gmapping/configfile_test  -Wl,-rpath,/home/z/catkin_ws/devel/lib: /home/z/catkin_ws/devel/lib/libconfigfile.so 

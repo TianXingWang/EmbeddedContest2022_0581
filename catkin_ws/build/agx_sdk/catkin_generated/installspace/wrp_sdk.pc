@@ -1,0 +1,8 @@
+prefix=/home/z/catkin_ws/install
+
+Name: wrp_sdk
+Description: Description of wrp_sdk
+Version: 0.1.5
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib -lwrp_sdk
+Requires: 

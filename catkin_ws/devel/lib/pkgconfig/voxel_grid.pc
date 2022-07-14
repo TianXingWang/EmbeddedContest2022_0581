@@ -1,0 +1,8 @@
+prefix=/home/z/catkin_ws/devel
+
+Name: voxel_grid
+Description: Description of voxel_grid
+Version: 1.14.9
+Cflags: -I/home/z/catkin_ws/src/navigation-kinetic-devel/voxel_grid/include
+Libs: -L${prefix}/lib -lvoxel_grid
+Requires: roscpp

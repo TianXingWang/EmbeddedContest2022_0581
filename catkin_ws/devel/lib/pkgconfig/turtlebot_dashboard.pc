@@ -1,0 +1,8 @@
+prefix=/home/z/catkin_ws/devel
+
+Name: turtlebot_dashboard
+Description: Description of turtlebot_dashboard
+Version: 2.2.3
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

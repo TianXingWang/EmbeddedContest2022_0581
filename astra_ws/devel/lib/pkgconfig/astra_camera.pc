@@ -1,0 +1,8 @@
+prefix=/home/z/astra_ws/devel
+
+Name: astra_camera
+Description: Description of astra_camera
+Version: 1.0.0
+Cflags: -I/home/z/astra_ws/devel/include -I/home/z/astra_ws/src/ros_astra_camera/include
+Libs: -L${prefix}/lib -lastra_wrapper
+Requires: camera_info_manager dynamic_reconfigure image_transport nodelet sensor_msgs roscpp message_runtime

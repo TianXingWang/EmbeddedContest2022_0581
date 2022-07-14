@@ -1,0 +1,8 @@
+prefix=/home/z/catkin_ws/devel
+
+Name: lslidar_n301_driver
+Description: Description of lslidar_n301_driver
+Version: 1.2.0
+Cflags: -I/home/z/catkin_ws/src/lslidar_n301-master/lslidar_n301-master/lslidar_n301_driver/include
+Libs: -L${prefix}/lib 
+Requires: roscpp diagnostic_updater nodelet lslidar_n301_msgs

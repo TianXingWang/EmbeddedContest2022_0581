@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>tracer_base</name>
+  <version>0.0.0</version>
+  <description>AgileX Tracer robot driver</description>
+
+  <author email="ruixiang.du@westonrobot.com">Ruixiang Du</author>
+  <maintainer email="info@westonrobot.com">WestonRobot</maintainer>
+
+  <license>BSD</license>
+
+  <url type="website">TODO</url>
+  <url type="bugtracker">TODO</url>
+  <url type="repository">TODO</url>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>tracer_msgs</build_depend>
+  <build_depend>roscpp</build_depend>
+  <build_depend>roslaunch</build_depend>
+  <build_depend>roslint</build_depend>
+  <build_depend>sensor_msgs</build_depend>
+  <build_depend>wrp_sdk</build_depend>
+  <!--build_depend>tracer_sdk</build_depend-->
+  <exec_depend>controller_manager</exec_depend>
+  <exec_depend>geometry_msgs</exec_depend>
+  <exec_depend>tracer_msgs</exec_depend>
+  <exec_depend>roscpp</exec_depend>
+  <exec_depend>sensor_msgs</exec_depend>
+  <exec_depend>topic_tools</exec_depend>
+  <!--exec_depend>tracer_sdk</exec_depend-->
+  <exec_depend>wrp_sdk</exec_depend>
+  <export></export>
+</package>

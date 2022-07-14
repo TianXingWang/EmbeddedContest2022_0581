@@ -1,0 +1,8 @@
+prefix=/home/z/catkin_ws/devel
+
+Name: ls01B
+Description: Description of ls01B
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

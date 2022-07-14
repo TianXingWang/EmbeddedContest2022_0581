@@ -1,0 +1,8 @@
+# CMake generated Testfile for 
+# Source directory: /home/z/catkin_ws/src/navigation-kinetic-devel/clear_costmap_recovery
+# Build directory: /home/z/catkin_ws/build/navigation-kinetic-devel/clear_costmap_recovery
+# 
+# This file includes the relevant testing commands required for 
+# testing this directory and lists subdirectories to be tested as well.
+add_test(_ctest_clear_costmap_recovery_rostest_test_clear_tests.launch "/home/z/catkin_ws/build/catkin_generated/env_cached.sh" "/usr/bin/python2" "/opt/ros/kinetic/share/catkin/cmake/test/run_tests.py" "/home/z/catkin_ws/build/test_results/clear_costmap_recovery/rostest-test_clear_tests.xml" "--return-code" "/opt/ros/kinetic/share/rostest/cmake/../../../bin/rostest --pkgdir=/home/z/catkin_ws/src/navigation-kinetic-devel/clear_costmap_recovery --package=clear_costmap_recovery --results-filename test_clear_tests.xml --results-base-dir \"/home/z/catkin_ws/build/test_results\" /home/z/catkin_ws/src/navigation-kinetic-devel/clear_costmap_recovery/test/clear_tests.launch ")
+set_tests_properties(_ctest_clear_costmap_recovery_rostest_test_clear_tests.launch PROPERTIES  _BACKTRACE_TRIPLES "/opt/ros/kinetic/share/catkin/cmake/test/tests.cmake;160;add_test;/opt/ros/kinetic/share/rostest/cmake/rostest-extras.cmake;52;catkin_run_tests_target;/opt/ros/kinetic/share/rostest/cmake/rostest-extras.cmake;80;add_rostest;/opt/ros/kinetic/share/rostest/cmake/rostest-extras.cmake;100;_add_rostest_google_test;/home/z/catkin_ws/src/navigation-kinetic-devel/clear_costmap_recovery/CMakeLists.txt;50;add_rostest_gtest;/home/z/catkin_ws/src/navigation-kinetic-devel/clear_costmap_recovery/CMakeLists.txt;0;")

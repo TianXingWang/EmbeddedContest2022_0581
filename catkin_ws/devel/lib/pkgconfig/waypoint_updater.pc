@@ -1,0 +1,8 @@
+prefix=/home/z/catkin_ws/devel
+
+Name: waypoint_updater
+Description: Description of waypoint_updater
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

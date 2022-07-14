@@ -1,0 +1,8 @@
+prefix=/home/z/catkin_ws/install
+
+Name: tracer_gazebo_sim
+Description: Description of tracer_gazebo_sim
+Version: 0.0.1
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
+Requires: roscpp sensor_msgs

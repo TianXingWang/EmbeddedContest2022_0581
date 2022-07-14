@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC -std=c++11 -O3 -O3 -DNDEBUG  -shared -Wl,-soname,libsensor_odometry.so -o /home/z/catkin_ws/devel/lib/libsensor_odometry.so CMakeFiles/sensor_odometry.dir/sensor/sensor_odometry/odometrysensor.cpp.o CMakeFiles/sensor_odometry.dir/sensor/sensor_odometry/odometryreading.cpp.o  -Wl,-rpath,/home/z/catkin_ws/devel/lib: /home/z/catkin_ws/devel/lib/libsensor_base.so 

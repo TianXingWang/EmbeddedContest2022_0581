@@ -1,0 +1,8 @@
+prefix=/home/z/catkin_ws/devel
+
+Name: tracer_description
+Description: Description of tracer_description
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

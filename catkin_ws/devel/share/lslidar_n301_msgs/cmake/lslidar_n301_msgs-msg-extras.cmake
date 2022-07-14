@@ -1,0 +1,2 @@
+set(lslidar_n301_msgs_MESSAGE_FILES "/home/z/catkin_ws/src/lslidar_n301-master/lslidar_n301-master/lslidar_n301_msgs/msg/LslidarN301Packet.msg;/home/z/catkin_ws/src/lslidar_n301-master/lslidar_n301-master/lslidar_n301_msgs/msg/LslidarN301Point.msg;/home/z/catkin_ws/src/lslidar_n301-master/lslidar_n301-master/lslidar_n301_msgs/msg/LslidarN301Scan.msg;/home/z/catkin_ws/src/lslidar_n301-master/lslidar_n301-master/lslidar_n301_msgs/msg/LslidarN301Sweep.msg")
+set(lslidar_n301_msgs_SERVICE_FILES "")

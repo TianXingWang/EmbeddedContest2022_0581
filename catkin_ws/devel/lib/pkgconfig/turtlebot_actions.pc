@@ -1,0 +1,8 @@
+prefix=/home/z/catkin_ws/devel
+
+Name: turtlebot_actions
+Description: Description of turtlebot_actions
+Version: 2.3.7
+Cflags: -I/home/z/catkin_ws/devel/include -I/home/z/catkin_ws/src/turtlebot_apps/turtlebot_actions/include
+Libs: -L${prefix}/lib 
+Requires: roscpp actionlib actionlib_msgs geometry_msgs message_runtime tf cv_bridge image_transport image_geometry turtlebot_bringup

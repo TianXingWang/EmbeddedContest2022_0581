@@ -1,0 +1,8 @@
+prefix=/home/z/catkin_ws/devel
+
+Name: turtlebot_navigation
+Description: Description of turtlebot_navigation
+Version: 2.3.7
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: tf roscpp sensor_msgs

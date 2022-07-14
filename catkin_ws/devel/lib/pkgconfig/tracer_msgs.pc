@@ -1,0 +1,8 @@
+prefix=/home/z/catkin_ws/devel
+
+Name: tracer_msgs
+Description: Description of tracer_msgs
+Version: 0.3.3
+Cflags: -I/home/z/catkin_ws/devel/include
+Libs: -L${prefix}/lib 
+Requires: 

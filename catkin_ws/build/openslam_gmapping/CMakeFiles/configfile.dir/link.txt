@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC -std=c++11 -O3 -O3 -DNDEBUG  -shared -Wl,-soname,libconfigfile.so -o /home/z/catkin_ws/devel/lib/libconfigfile.so CMakeFiles/configfile.dir/configfile/configfile.cpp.o 

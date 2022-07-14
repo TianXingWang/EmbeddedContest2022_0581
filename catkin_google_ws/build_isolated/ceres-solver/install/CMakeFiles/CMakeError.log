@@ -1,0 +1,129 @@
+Determining if the function sgemm_ exists failed with the following output:
+Change Dir: /home/z/catkin_google_ws/build_isolated/ceres-solver/install/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_eef51 && [1/2] Building C object CMakeFiles/cmTC_eef51.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_eef51
+FAILED: : && /usr/bin/cc -DCHECK_FUNCTION_EXISTS=sgemm_  -rdynamic CMakeFiles/cmTC_eef51.dir/CheckFunctionExists.c.o  -o cmTC_eef51   && :
+CMakeFiles/cmTC_eef51.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x10): undefined reference to `sgemm_'
+collect2: error: ld returned 1 exit status
+ninja: build stopped: subcommand failed.
+
+
+
+Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD failed with the following output:
+Change Dir: /home/z/catkin_google_ws/build_isolated/ceres-solver/install/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_95025 && [1/2] Building C object CMakeFiles/cmTC_95025.dir/src.c.o
+[2/2] Linking C executable cmTC_95025
+FAILED: : && /usr/bin/cc -DCMAKE_HAVE_LIBC_PTHREAD  -rdynamic CMakeFiles/cmTC_95025.dir/src.c.o  -o cmTC_95025   && :
+CMakeFiles/cmTC_95025.dir/src.c.o: In function `main':
+src.c:(.text+0x3c): undefined reference to `pthread_create'
+src.c:(.text+0x48): undefined reference to `pthread_detach'
+src.c:(.text+0x59): undefined reference to `pthread_join'
+src.c:(.text+0x6d): undefined reference to `pthread_atfork'
+collect2: error: ld returned 1 exit status
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+#include <pthread.h>
+
+void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/z/catkin_google_ws/build_isolated/ceres-solver/install/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_37f69 && [1/2] Building C object CMakeFiles/cmTC_37f69.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_37f69
+FAILED: : && /usr/bin/cc -DCHECK_FUNCTION_EXISTS=pthread_create  -rdynamic CMakeFiles/cmTC_37f69.dir/CheckFunctionExists.c.o  -o cmTC_37f69  -lpthreads && :
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+ninja: build stopped: subcommand failed.
+
+
+
+Determining if the function cheev_ exists failed with the following output:
+Change Dir: /home/z/catkin_google_ws/build_isolated/ceres-solver/install/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_e5256 && [1/2] Building C object CMakeFiles/cmTC_e5256.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_e5256
+FAILED: : && /usr/bin/cc -DCHECK_FUNCTION_EXISTS=cheev_  -rdynamic CMakeFiles/cmTC_e5256.dir/CheckFunctionExists.c.o  -o cmTC_e5256  /usr/lib/libf77blas.so  /usr/lib/libatlas.so && :
+CMakeFiles/cmTC_e5256.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x10): undefined reference to `cheev_'
+collect2: error: ld returned 1 exit status
+ninja: build stopped: subcommand failed.
+
+
+
+Determining if the include file unordered_map exists failed with the following output:
+Change Dir: /home/z/catkin_google_ws/build_isolated/ceres-solver/install/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_32126 && [1/2] Building CXX object CMakeFiles/cmTC_32126.dir/CheckIncludeFile.cxx.o
+FAILED: /usr/bin/c++    -fopenmp  -fopenmp -o CMakeFiles/cmTC_32126.dir/CheckIncludeFile.cxx.o -c CheckIncludeFile.cxx
+In file included from /usr/include/c++/5/unordered_map:35:0,
+                 from CheckIncludeFile.cxx:1:
+/usr/include/c++/5/bits/c++0x_warning.h:32:2: error: #error This file requires compiler and library support for the ISO C++ 2011 standard. This support must be enabled with the -std=c++11 or -std=gnu++11 compiler options.
+ #error This file requires compiler and library support \
+  ^
+ninja: build stopped: subcommand failed.
+
+
+
+Performing C++ SOURCE FILE Test HAVE_SHARED_PTR_IN_STD_NAMESPACE failed with the following output:
+Change Dir: /home/z/catkin_google_ws/build_isolated/ceres-solver/install/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_9f7a4 && [1/2] Building CXX object CMakeFiles/cmTC_9f7a4.dir/src.cxx.o
+FAILED: /usr/bin/c++    -fopenmp -DHAVE_SHARED_PTR_IN_STD_NAMESPACE  -fopenmp -o CMakeFiles/cmTC_9f7a4.dir/src.cxx.o -c src.cxx
+src.cxx: In function ‘int main()’:
+src.cxx:3:34: error: ‘shared_ptr’ is not a member of ‘std’
+                                  std::shared_ptr<int> int_ptr;
+                                  ^
+src.cxx:3:50: error: expected primary-expression before ‘int’
+                                  std::shared_ptr<int> int_ptr;
+                                                  ^
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+#include <memory>
+                               int main() {
+                                 std::shared_ptr<int> int_ptr;
+                                 return 0;
+                               }
+Performing C++ SOURCE FILE Test HAVE_SHARED_PTR_IN_TR1_NAMESPACE failed with the following output:
+Change Dir: /home/z/catkin_google_ws/build_isolated/ceres-solver/install/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_e3b3b && [1/2] Building CXX object CMakeFiles/cmTC_e3b3b.dir/src.cxx.o
+FAILED: /usr/bin/c++    -fopenmp -DHAVE_SHARED_PTR_IN_TR1_NAMESPACE  -fopenmp -o CMakeFiles/cmTC_e3b3b.dir/src.cxx.o -c src.cxx
+src.cxx: In function ‘int main()’:
+src.cxx:3:41: error: ‘std::tr1’ has not been declared
+                                    std::tr1::shared_ptr<int> int_ptr;
+                                         ^
+src.cxx:3:57: error: expected primary-expression before ‘int’
+                                    std::tr1::shared_ptr<int> int_ptr;
+                                                         ^
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+#include <memory>
+                                 int main() {
+                                   std::tr1::shared_ptr<int> int_ptr;
+                                   return 0;
+                                 }

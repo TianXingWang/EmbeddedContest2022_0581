@@ -1,0 +1,8 @@
+prefix=/home/z/catkin_ws/install
+
+Name: odom_tf_package
+Description: Description of odom_tf_package
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

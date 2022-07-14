@@ -1,0 +1,8 @@
+prefix=/home/z/catkin_ws/install
+
+Name: tracer_base
+Description: Description of tracer_base
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib -ltracer_messenger
+Requires: 

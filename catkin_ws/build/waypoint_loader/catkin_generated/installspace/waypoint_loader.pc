@@ -1,0 +1,8 @@
+prefix=/home/z/catkin_ws/install
+
+Name: waypoint_loader
+Description: Description of waypoint_loader
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

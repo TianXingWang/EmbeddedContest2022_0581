@@ -1,0 +1,2 @@
+/usr/bin/ar qc /home/z/catkin_ws/devel/lib/libtracer_messenger.a  CMakeFiles/tracer_messenger.dir/src/tracer_messenger.cpp.o
+/usr/bin/ranlib /home/z/catkin_ws/devel/lib/libtracer_messenger.a

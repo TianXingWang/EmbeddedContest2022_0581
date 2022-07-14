@@ -1,0 +1,8 @@
+prefix=/home/z/catkin_ws/install
+
+Name: tracer_bringup
+Description: Description of tracer_bringup
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
